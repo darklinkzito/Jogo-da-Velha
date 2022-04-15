@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+.quadrado{
+    border-radius: 20px;
+    text-align: center;
+    width: 40px;
+    background-color: #eee;
+    color: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.quadrado:hover{
+    border-radius: 20px;
+    text-align: center;
+    width: 40px;
+    background-color: rgb(170, 170, 170);
+    color: rgb(170, 170, 170);
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.jogador, .vencedor{
+font-size: 30px;
+margin-top: 10px;
+}
+
+#botao{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+}
+#botao:hover{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+}
